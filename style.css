@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    padding: 20px;
+    margin-top: 0;
+    background-color: rgb(244, 244, 245);
+   
+
+}
+
+.first{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+   
+    background-color: white;
+    
+}
+
+.first-left{
+    display: flex;
+    align-items:center;
+   
+}
+.first-left h4:hover
+{
+    color:  rgb(53, 143, 165);
+}
+.first-left img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.first-right{
+    display: flex;
+    align-items:center;
+    font-size: 18px;
+   
+}
+nav{
+    background-color: rgb(210, 211, 211);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+nav a
+{
+    color: #232020;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+nav a:hover{
+    color: rgb(53, 143, 165);
+}
+.middle-part{
+    background-color: rgb(30, 117, 139);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.middle-part h1 b
+{
+    font-size: larger;
+}
+.middle-part button{
+    background-color: #333;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.middle-part button:hover{
+    background-color: rgb(66, 70, 71);
+    
+}
+.parts {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+.parts-division p
+{
+    font-size: small;
+}
+
+.parts-division h4 {
+    color: rgb(39, 103, 119);
+    margin-bottom: 12px;
+}
+.parts-division h4:hover {
+    color: rgb(66, 168, 194);
+   
+}
+
+
+
+.parts-division p {
+    color: #333;
+}
+
+.products{
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.laptop img{
+    max-width: 100%;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.laptop{
+    border-radius: 10px; 
+    text-align: center;
+    max-width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.laptop button{
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(39, 103, 119);
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.laptop button:hover{
+    background-color: rgb(66, 168, 194); ;
+}
+footer
+{
+    background-color: rgb(92, 94, 94);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+}
